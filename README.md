@@ -11,7 +11,7 @@ Template for Spring 4 MVC + jQuery Ajax + Jackson2, using Maven build tool.
 
 ###2. To Run this project locally
 ```shell
-$ git clone https://github.com/mkyong/spring4-mvc-ajax-example
+$ git clone https://github.com/develop2clickcomputers/POS
 $ mvn jetty:run
 ```
 Access ```http://localhost:8080/spring4ajax```
