@@ -15,7 +15,7 @@ public class DBInitialize {
 	Class.forName("com.mysql.jdbc.Driver").newInstance();
 	System.out.println("Driver loaded");
 	  // Connect to a database
-	 Connection connection = DriverManager.getConnection ("jdbc:mysql://localhost:8889/ucsmpos","root","root");
+	 Connection connection = DriverManager.getConnection ("jdbc:mysql://127.0.0.1:3306/ucsmpos","root","");
 	System.out.println("Database connected"); // Create a statement
 	   statement = connection.createStatement();
 	  // Execute a statement

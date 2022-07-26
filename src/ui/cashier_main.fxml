@@ -19,7 +19,7 @@
                   <Image url="@../graphic/poslogorect.png" />
                </image>
             </ImageView>
-            <Label layoutX="141.0" layoutY="9.0" prefHeight="61.0" prefWidth="332.0" style="-fx-text-fill: #FFF; -fx-font-size: 35;" text="UCSM POS System" />
+            <Label layoutX="141.0" layoutY="9.0" prefHeight="61.0" prefWidth="332.0" style="-fx-text-fill: #FFF; -fx-font-size: 35;" text="DDS POS System" />
             <Label fx:id="lb_cashier_name" layoutX="936.0" layoutY="27.0" style="-fx-text-fill: #FFF; -fx-font-size: 25;" text="Cashier Name" />
             <JFXButton fx:id="bt_logout" layoutX="1131.0" layoutY="18.0" onAction="#onLogoutClick" prefHeight="41.0" prefWidth="154.0" style="-fx-background-color: #9b7f18;" text="Log Out" textFill="WHITE" />
          </children>

@@ -14,7 +14,6 @@
 	<classpathentry kind="lib" path="JFXMaterial.jar"/>
 	<classpathentry kind="lib" path="JFXMaterialDemo.jar"/>
 	<classpathentry kind="lib" path="log4j.jar"/>
-	<classpathentry kind="lib" path="mysql-connector-java-5.1.17-bin.jar"/>
 	<classpathentry kind="lib" path="poi-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="poi-3.5-FINAL.jar"/>
 	<classpathentry kind="lib" path="poi-examples-3.16-beta2.jar"/>
@@ -24,5 +23,6 @@
 	<classpathentry kind="lib" path="poi-scratchpad-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="jasperreports-6.20.0.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-8.0.29.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

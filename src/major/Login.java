@@ -1,5 +1,8 @@
 package major;
 
+import java.sql.SQLException;
+
+import database.DBInitialize;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,14 +26,14 @@ public class Login extends Application{
 		primaryStage.setScene(scene);
 		primaryStage.setResizable(false);
 		primaryStage.setMaximized(false);
-		primaryStage.setTitle("Tyler's POS System");
+		primaryStage.setTitle("DDS POS System");
 		primaryStage.getIcons().add(new Image("graphic/poslogorect.png"));
 		primaryStage.show();
 		
 	}
 	
 	public static void main(String args[]) {
-		Application.launch(args);
+		Application.launch(args);		
 	}
 }
 
