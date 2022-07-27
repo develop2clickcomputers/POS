@@ -80,7 +80,7 @@ public class LoginController{
 
 	   
 	        //database
-	        new DBInitialize().DBInitialize();;
+	        new DBInitialize().DBInitialize();
 	        
 	        bt_rdo_cashier.setSelected(true);
 	    }
@@ -114,8 +114,8 @@ public class LoginController{
 	    	if(bt_rdo_admin.isSelected()) {
 	    		System.out.println("Admin is seleted");
 		    	
-		    	realId = "pos-2018-ad"; //ucsmpos-2018-ad
-		    	realPw = "admin@2018";//admin@2018
+		    	realId = "admin";
+		    	realPw = "Admin@2022";
 
         	if(id.equals(realId) && pw.equals(realPw)) {
         		

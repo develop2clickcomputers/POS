@@ -33,7 +33,15 @@ public class Login extends Application{
 	}
 	
 	public static void main(String args[]) {
-		Application.launch(args);		
+		Application.launch(args);
+		/*
+		try {
+			 //database
+	        new DBInitialize().DBInitialize();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		*/
 	}
 }
 

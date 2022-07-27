@@ -47,7 +47,9 @@ Database .sql file is also included in the directory.
 ```
 mysql> set @@global.show_compatibility_56=ON;
 ```
-9. Admin username and password: usernaem: pos-2018-ad; pw: admin@2018.
+9. Admin username and password: 
+         username: admin 
+		 pwd: Admin@2022
 10. Now, you're good to go!!! Modify it for your own usecase. 
 
 <hr>
